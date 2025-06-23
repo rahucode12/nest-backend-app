@@ -4,7 +4,7 @@ import { Injectable, UnauthorizedException, OnModuleInit } from '@nestjs/common'
 import { UserService } from '../user.service';
 import * as bcrypt from 'bcrypt';
 import { JwtService } from '@nestjs/jwt';
-
+//test
 @Injectable()
 export class AuthService implements OnModuleInit {
   constructor(
